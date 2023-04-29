@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 
-diabetes_data = pd.read_csv('D:\Thiagão Sabado\diabetes.csv')
+diabetes_data = pd.read_csv('diabetes.csv')
 '''' mude o diretório de acordo'''
 
 X = diabetes_data.drop('Outcome', axis=1)
